@@ -1,0 +1,38 @@
+.video {
+  position: relative;
+  border:1px solid red;
+  width: 100%;
+  height:100%;
+  scroll-snap-align: start;
+  background-color:grey;
+}
+.video__player{
+  object-fit: fill;
+  height:100%;
+  width:100%;
+  background-color: grey;
+}
+.video>h2{
+  background-color: grey;
+  color:white;
+  display: grid;
+  place-items: center;
+  margin-top:.7rem 0;
+  font-size: 1.8rem;
+  font-weight:700;
+  text-shadow: 6px 10px 16px black;
+}
+.video_top{
+  background-color: grey;
+  padding-top:2rem;
+  display: grid; 
+  grid-template-rows: subgrid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  max-width:50%;
+  margin:0 auto;
+color:white
+  
+  
+  
+}
